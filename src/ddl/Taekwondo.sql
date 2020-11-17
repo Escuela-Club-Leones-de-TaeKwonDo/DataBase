@@ -23,10 +23,10 @@ DROP TABLE IF EXISTS `tipo_evento`;
 /*!40101 SET @saved_cs_client	  = @@character_set_client*/;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tipo_evento` (
-  `id_tipo_evento` int NOT NULL AUTO_INCREMENT,
-  `nombre` text DEFAULT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre_tipo_evento` text DEFAULT NULL,
   `descripcion` text DEFAULT NULL,
-  PRIMARY KEY(`id_tipo_evento`)
+  PRIMARY KEY(`id`)
 )  ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -38,15 +38,16 @@ DROP TABLE IF EXISTS `evento`;
 /*!40101 SET @saved_cs_client	  = @@character_set_client*/;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `evento` (
-  `id_evento` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `nombre` varchar(13),
+  `descripcion` varchar(255),
   `id_tipo_evento` int,
   `fecha_inicio` date,
   `fecha_fin` date,
   `costo` float(6.2),
   `enlace_facebook` text,
-  PRIMARY KEY(`id_evento`),
-  FOREIGN KEY(`id_tipo_evento`) REFERENCES `tipo_evento` (`id_tipo_evento`)
+  PRIMARY KEY(`id`),
+  FOREIGN KEY(`id_tipo_evento`) REFERENCES `tipo_evento` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -58,7 +59,7 @@ DROP TABLE IF EXISTS `examen`;
 /*!40101 SET @saved_cs_client	  = @@character_set_client*/;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `examen` (
-  `id_examen` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `nombre` text,
   `tipo_examen` varchar(255),
   `fecha` date,
@@ -67,7 +68,7 @@ CREATE TABLE `examen` (
   `enlace_facebook` text,
   `lista_alumnos` text,
   `solicitud_examen` text,
-  PRIMARY KEY(`id_examen`)
+  PRIMARY KEY(`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -79,19 +80,19 @@ DROP TABLE IF EXISTS `alumno`;
 /*!40101 SET @saved_cs_client	  = @@character_set_client*/;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `alumno` (
-  `id_alumno` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `nombre` text,
   `apellidos` text,
   `fecha_nacimiento` date,
   `fotografia` text,
-  `actividad` text,
+  `actividad_marcial` text,
   `grado` text,
   `seguro_medico` text,
   `certificado_medico` text,
   `carta_responsiva` text,
   `password` text,
   `email` text,
-  PRIMARY KEY(`id_alumno`)
+  PRIMARY KEY(`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -105,8 +106,8 @@ DROP TABLE IF EXISTS `evento_alumno`;
 CREATE TABLE `evento_alumno` (
   `id_alumno` integer,
   `id_evento` integer,
-  FOREIGN KEY (`id_alumno`) REFERENCES `alumno` (`id_alumno`),
-  FOREIGN KEY (`id_evento`) REFERENCES `evento` (`id_evento`)
+  FOREIGN KEY (`id_alumno`) REFERENCES `alumno` (`id`),
+  FOREIGN KEY (`id_evento`) REFERENCES `evento` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -120,8 +121,8 @@ DROP TABLE IF EXISTS `examen_alumno`;
 CREATE TABLE `examen_alumno` (
   `id_alumno` integer,
   `id_examen` integer,
-  FOREIGN KEY (`id_alumno`) REFERENCES `alumno` (`id_alumno`),
-  FOREIGN KEY (`id_examen`) REFERENCES `examen` (`id_examen`)
+  FOREIGN KEY (`id_alumno`) REFERENCES `alumno` (`id`),
+  FOREIGN KEY (`id_examen`) REFERENCES `examen` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -133,10 +134,10 @@ DROP TABLE IF EXISTS `administrador`;
 /*!40101 SET @saved_cs_client	  = @@character_set_client*/;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `administrador` (
-  `id_administrador` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `password` text,
   `email` text,
-  PRIMARY KEY(`id_administrador`)
+  PRIMARY KEY(`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
