@@ -111,19 +111,20 @@ CREATE TABLE `evento_alumno` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Table structure for table `examen_alumno`
+-- Table structure for table `ex_al` (examen_alumno)
 --
 
-DROP TABLE IF EXISTS `examen_alumno`;
+DROP TABLE IF EXISTS `ex_al`;
 /*!40101 SET @saved_cs_client	  = @@character_set_client*/;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `examen_alumno` (
-  `id_alumno` integer,
-  `id_examen` integer,
-  FOREIGN KEY (`id_alumno`) REFERENCES `alumno` (`id`),
-  FOREIGN KEY (`id_examen`) REFERENCES `examen` (`id`)
+CREATE TABLE `ex_al` (
+  `id_alumnoE` integer,
+  `id_examenE` integer,
+  FOREIGN KEY (`id_alumnoE`) REFERENCES `alumno` (`id`),
+  FOREIGN KEY (`id_examenE`) REFERENCES `evento` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 
 --
 -- Table structure for table `administrador`
