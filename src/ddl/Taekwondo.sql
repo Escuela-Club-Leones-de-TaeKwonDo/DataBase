@@ -39,7 +39,7 @@ DROP TABLE IF EXISTS `evento`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `evento` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `nombre` varchar(13),
+  `nombre` varchar(255),
   `descripcion` varchar(255),
   `id_tipo_evento` int,
   `fecha_inicio` date,
@@ -66,7 +66,6 @@ CREATE TABLE `examen` (
   `costo` float(6.2),
   `horario` datetime,
   `enlace_facebook` text,
-  `lista_alumnos` text,
   `solicitud_examen` text,
   PRIMARY KEY(`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
