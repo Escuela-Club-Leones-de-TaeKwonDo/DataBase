@@ -202,3 +202,5 @@ INSERT INTO `ex_al` VALUES ('5', '5');
 INSERT INTO `ex_al` VALUES ('6', '6');
 INSERT INTO `ex_al` VALUES ('7', '7');
 INSERT INTO `ex_al` VALUES ('8', '8');
+
+INSERT INTO `administrador` VALUES (1,'$2a$10$IDieDdEQQaYhUwaZqRCD6eFT3EiTJnyyDjCINxd9UCobq0X8V4xBO','admin@mail.com');
