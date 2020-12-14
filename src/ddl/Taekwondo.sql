@@ -161,10 +161,10 @@ INSERT INTO `alumno` VALUES ('15', 'Brandon', 'Castro', '1997-11-24', 'Foto', 'A
 
 
 
-INSERT INTO `tipo_evento` VALUES ('1', 'Alumnos de otras academias acuden a la nuestra para realizar enfrentamientos entre alumnos de mismos grados', 'Torneo');
-INSERT INTO `tipo_evento` VALUES ('2', 'Alumnos destacados de nuestra academia acuden a otra academia para realizar enfrentamientos entre alumnos de mismos grados', 'Torneo foraneos');
-INSERT INTO `tipo_evento` VALUES ('3', 'Evento para exhibir los avances de los alumnos de la academia.', 'Exhibición');
-INSERT INTO `tipo_evento` VALUES ('4', 'Otro tipo de evento pero ya no se me ocurrió otro', 'Otro');
+INSERT INTO `tipo_evento` VALUES ('1', 'Torneo', 'Alumnos de otras academias acuden a la nuestra para realizar enfrentamientos entre alumnos de mismos grados');
+INSERT INTO `tipo_evento` VALUES ('2', 'Torneo foraneos', 'Alumnos destacados de nuestra academia acuden a otra academia para realizar enfrentamientos entre alumnos de mismos grados');
+INSERT INTO `tipo_evento` VALUES ('3', 'Exhibición',  'Evento para exhibir los avances de los alumnos de la academia.');
+INSERT INTO `tipo_evento` VALUES ('4', 'Otro', 'Otro tipo de evento pero ya no se me ocurrió otro');
 
 INSERT INTO `evento` VALUES ('1', 'Torneo 1', 'descripción', '1' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
 INSERT INTO `evento` VALUES ('2', 'Torneo 2', 'descripción', '1' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
