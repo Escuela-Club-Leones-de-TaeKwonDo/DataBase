@@ -166,24 +166,24 @@ INSERT INTO `tipo_evento` VALUES ('2', 'Torneo foraneos', 'Alumnos destacados de
 INSERT INTO `tipo_evento` VALUES ('3', 'Exhibición',  'Evento para exhibir los avances de los alumnos de la academia.');
 INSERT INTO `tipo_evento` VALUES ('4', 'Otro', 'Otro tipo de evento pero ya no se me ocurrió otro');
 
-INSERT INTO `evento` VALUES ('1', 'Torneo 1', 'descripción', '1' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
-INSERT INTO `evento` VALUES ('2', 'Torneo 2', 'descripción', '1' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
-INSERT INTO `evento` VALUES ('3', 'Torneo For1', 'descripción', '2' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
-INSERT INTO `evento` VALUES ('4', 'Torneo For2', 'descripción', '2' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
-INSERT INTO `evento` VALUES ('5', 'Exhibicion 1', 'descripción', '3' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
-INSERT INTO `evento` VALUES ('6', 'Exhibicion 2', 'descripción', '3' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
-INSERT INTO `evento` VALUES ('7', 'Otro 1', 'descripción', '4' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
-INSERT INTO `evento` VALUES ('8', 'Otro 2', 'descripción', '4' , '2020-12-12', '2020-12-13', '100', 'www.facebook.com');
+INSERT INTO `evento` VALUES ('1', 'Torneo 1', 'descripción', '1' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
+INSERT INTO `evento` VALUES ('2', 'Torneo 2', 'descripción', '1' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
+INSERT INTO `evento` VALUES ('3', 'Torneo For1', 'descripción', '2' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
+INSERT INTO `evento` VALUES ('4', 'Torneo For2', 'descripción', '2' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
+INSERT INTO `evento` VALUES ('5', 'Exhibicion 1', 'descripción', '3' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
+INSERT INTO `evento` VALUES ('6', 'Exhibicion 2', 'descripción', '3' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
+INSERT INTO `evento` VALUES ('7', 'Otro 1', 'descripción', '4' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
+INSERT INTO `evento` VALUES ('8', 'Otro 2', 'descripción', '4' , '2020-12-12', '2020-12-13', '100', 'https://www.facebook.com/events/137511841276124/');
 
 
-INSERT INTO `examen` VALUES ('1', 'Grado 1', 'PROMOCION_GRADO', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
-INSERT INTO `examen` VALUES ('2', 'Grado 2', 'PROMOCION_GRADO', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
-INSERT INTO `examen` VALUES ('3', 'Cinta 1', 'CAMBIO_CINTA', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
-INSERT INTO `examen` VALUES ('4', 'Cinta 2', 'CAMBIO_CINTA', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
-INSERT INTO `examen` VALUES ('5', 'Tteorico 1', 'TEORICO', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
-INSERT INTO `examen` VALUES ('6', 'Teorico 2', 'TEORICO', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
-INSERT INTO `examen` VALUES ('7', 'Revision 1', 'REVISION', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
-INSERT INTO `examen` VALUES ('8', 'Revision 2', 'REVISION', '2020-12-12', '100','12:30', 'www.facebook.com', 'solicitud' );
+INSERT INTO `examen` VALUES ('1', 'Grado 1', 'PROMOCION_GRADO', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
+INSERT INTO `examen` VALUES ('2', 'Grado 2', 'PROMOCION_GRADO', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
+INSERT INTO `examen` VALUES ('3', 'Cinta 1', 'CAMBIO_CINTA', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
+INSERT INTO `examen` VALUES ('4', 'Cinta 2', 'CAMBIO_CINTA', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
+INSERT INTO `examen` VALUES ('5', 'Tteorico 1', 'TEORICO', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
+INSERT INTO `examen` VALUES ('6', 'Teorico 2', 'TEORICO', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
+INSERT INTO `examen` VALUES ('7', 'Revision 1', 'REVISION', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
+INSERT INTO `examen` VALUES ('8', 'Revision 2', 'REVISION', '2020-12-12', '100','12:30', 'https://www.facebook.com/events/137511841276124/', 'solicitud' );
 
 INSERT INTO `evento_alumno` VALUES ('1', '1');
 INSERT INTO `evento_alumno` VALUES ('2', '2');
