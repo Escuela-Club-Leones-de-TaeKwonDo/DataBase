@@ -141,21 +141,21 @@ CREATE TABLE `administrador` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
-INSERT INTO `alumno` VALUES ('1', 'Quimberly', 'Perez', '1997-11-24', 'Foto', 'TAEKWONDO', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('2', 'Belén', 'Martinez', '1997-11-24', 'Foto', 'TAEKWONDO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('3', 'Valeria', 'Solis', '1997-11-24', 'Foto', 'TAEKWONDO', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('4', 'Lucero', 'Diaz', '1997-11-24', 'Foto', 'TAEKWONDO', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('5', 'Nancy', 'García', '1997-11-24', 'Foto', 'TAEKWONDO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('6', 'Lucía', 'Mendoza', '1997-11-24', 'Foto', 'KICK_BOXING', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('7', 'Christian', 'Castillo', '1997-11-24', 'Foto', 'KICK_BOXING', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('8', 'Fernanda', 'Valverde', '1997-11-24', 'Foto', 'KICK_BOXING', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('9', 'Gabriela', 'Hernandez', '1997-11-24', 'Foto', 'KICK_BOXING', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('10', 'Kevin', 'Contreras', '1997-11-24', 'Foto', 'KICK_BOXING', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('11', 'Ricardo', 'Rios', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('12', 'Martin', 'Salgado', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('13', 'Alan', 'Gonzales', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('14', 'Marco', 'Guevara', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
-INSERT INTO `alumno` VALUES ('15', 'Brandon', 'Castro', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email@elmail.com');
+INSERT INTO `alumno` VALUES ('1', 'Quimberly', 'Perez', '1997-11-24', 'Foto', 'TAEKWONDO', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email1@elmail.com');
+INSERT INTO `alumno` VALUES ('2', 'Belén', 'Martinez', '1997-11-24', 'Foto', 'TAEKWONDO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email2@elmail.com');
+INSERT INTO `alumno` VALUES ('3', 'Valeria', 'Solis', '1997-11-24', 'Foto', 'TAEKWONDO', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email3@elmail.com');
+INSERT INTO `alumno` VALUES ('4', 'Lucero', 'Diaz', '1997-11-24', 'Foto', 'TAEKWONDO', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email4@elmail.com');
+INSERT INTO `alumno` VALUES ('5', 'Nancy', 'García', '1997-11-24', 'Foto', 'TAEKWONDO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email5@elmail.com');
+INSERT INTO `alumno` VALUES ('6', 'Lucía', 'Mendoza', '1997-11-24', 'Foto', 'KICK_BOXING', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email6@elmail.com');
+INSERT INTO `alumno` VALUES ('7', 'Christian', 'Castillo', '1997-11-24', 'Foto', 'KICK_BOXING', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email7@elmail.com');
+INSERT INTO `alumno` VALUES ('8', 'Fernanda', 'Valverde', '1997-11-24', 'Foto', 'KICK_BOXING', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email8@elmail.com');
+INSERT INTO `alumno` VALUES ('9', 'Gabriela', 'Hernandez', '1997-11-24', 'Foto', 'KICK_BOXING', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email9@elmail.com');
+INSERT INTO `alumno` VALUES ('10', 'Kevin', 'Contreras', '1997-11-24', 'Foto', 'KICK_BOXING', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email10@elmail.com');
+INSERT INTO `alumno` VALUES ('11', 'Ricardo', 'Rios', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email11@elmail.com');
+INSERT INTO `alumno` VALUES ('12', 'Martin', 'Salgado', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email12@elmail.com');
+INSERT INTO `alumno` VALUES ('13', 'Alan', 'Gonzales', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '1', 'seguro', 'certificado_medico', 'carta', '12345678', 'email13@elmail.com');
+INSERT INTO `alumno` VALUES ('14', 'Marco', 'Guevara', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '2', 'seguro', 'certificado_medico', 'carta', '12345678', 'email14@elmail.com');
+INSERT INTO `alumno` VALUES ('15', 'Brandon', 'Castro', '1997-11-24', 'Foto', 'ACONDICIONAMIENTO_FISICO', '3', 'seguro', 'certificado_medico', 'carta', '12345678', 'email15@elmail.com');
 
 
 
